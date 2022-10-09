@@ -1,0 +1,4 @@
+# to activate the RealSense camera and publish topics to be
+visualized, run the following launch file in a new terminal
+
+roslaunch stretch_core d435i_low_resolution.launch

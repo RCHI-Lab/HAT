@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "stretchspeechrecognition",
+  "private_key_id": "8f34f4c0b236399ae1a8ce47963c8f12238a9d15",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCz54zsT3y0iSqj\n64RMfaIyvW4s0gKwEq65juvxOIcjfu65yMQesEcxvhD7kN0Anuhw5TeiAce73qqG\ncTaMYg7y7CgyeQD+0Ahp2zSwuP6SPFvFbskRexCtzk805sjD86ChTu++trQVFHp2\nzaWL4kz4Mw2cP+QGl8wWVpap+8qDUKm7i8Xskq9HjECKFbCtUAOU3Ijjmsbhs9M3\nC1rHlHkSutuMaSRA3rbyv7Ax4/NLvW7p/DGczaYOBRP61ujASZ5K7weMaWKrm3lH\n17R+zW6B6LVZPG1rlCzDKHGAq+kJeVklV0DHahB/LKkD02Fb3Rz4oPziHnay+hWx\nXI14WvZFAgMBAAECggEAEVawbAkII40xvR0igc2872d24h52cFpImS0nW7b/PUJL\nR0AMeMmz/t0K3Xf7eMcX72OEDlreEWL3K+Bm6bY8qxhsEls7p5NMsEkWZa7aqCTl\nklxoSAVEmP+wfhB9CnelRE6riAWrSvnPiLouqZHsqaIf/m5g72q7Wm7LdAQGo0ue\nRTjfAFnbNmRxeiwCtAzdtTJpxTRvBbZZZtifd0GewLYQ8dnUYxJHQtLqr0gTXAH5\n9ianQ+H1bBIEfH3XGHDNrq9+osq6NUr/d0ueHx3z4+bROsbeIuRkvJ9iDFZUA+7G\nJ1Y3Wx/I0HLE1zzlHzqdgGR9HY4Dl1QterBhQzHcsQKBgQDZss6PhRH96CK0cFpE\n1Vk+4dFhwKCbbJi8CkFg0eXufHGLwnnOER5T/F2LgQZ+qdvn1J7/Tra4Q/cts0zj\nSVFuiobJTAd8yiN0E/0qxHEq1FeSGdnNJf+HXO4kFcmqxwxeT/KURPc+nGWW215S\n2AOfXwwi9YnYjvZ2yuKqUcXB8QKBgQDTjn5m0ahUOUwbc6jNd/w1kFWjj2NBfWt1\nKDAR5dS4eWpy9mAfgULzrAiHwmTfO+cu0snKeZHQk2liadrqnLJ9U8Ii+7L4BwMK\nBh8zJ9w/tkCWn6auGjZBeJVJQ6z2PI6tZVJoOOu0R3OjN0q9EHCZSsARA2duOuH1\nNxOUmY1llQKBgGE2IFkkUflwvHaYqSaNorGawxYEn3NoFff6GGG0uRk6xrVjHWMw\nb7uPOPJ/pjfPf9xRLMLTEnLMHsdwhogECHH1N+URp1JJLXW7K1T6rZIzifs6wfCC\n5E086TaB6DDze4lt5+PfvAxgaFjqEn+p6Ew1dET0Ih7rEBHR3U+y/jzxAoGAdQu6\nTWKj0e1deTa1ZvCCXpQ7fWGglaQxZsFUTyKsXV/3kCFVrziR9UTx90KLEqMO1e4T\nbO1zykU0ohlU4EbPzd0gZMCDFQy0FsCqVGAyUCGifHNaAatI51IyrjU+JYH9oluT\ni0wqxDRf+yZlOFM3KOideQw8FlWHnGbbc3S9MT0CgYBU4bh9kKI13LBNeBHISP2D\nLgGQgTY5OgTjhf+zCaiTvEfRaxjr7Ii4lblYj640lxtmaUDV7YICiPIo0sBJl/e1\nJeVgPo57Pi+eLL3BfopLzRy3luzOX3sQkaXan0X5dn/MK/wpd3ZhzjjboH+t2emm\nlRWL3y1hRV1OwbF0oeXnXQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "stretch@stretchspeechrecognition.iam.gserviceaccount.com",
+  "client_id": "113441484239793055888",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stretch%40stretchspeechrecognition.iam.gserviceaccount.com"
+}

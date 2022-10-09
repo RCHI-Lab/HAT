@@ -1,0 +1,7 @@
+numpy
+SpeechRecognition
+sockets
+python-time
+gTTS
+playsound
+selection
