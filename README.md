@@ -1,4 +1,4 @@
-# Wearable-Headband-Interface
+# HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators
 The code accompanies the submission: [HAT: Head-Worn Assistive Teleoperation of Mobile Manipulators](https://arxiv.org/abs/2209.13097).<br>
 Akhil Padmanabha, Qin Wang, Daphne Han, Jashkumar Diyora, Kriti Kacker, Hamza Khalid, Liang-Jung Chen, Carmel Majidi, Zackory Erickson
 
