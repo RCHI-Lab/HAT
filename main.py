@@ -12,7 +12,7 @@ import os
 os.nice(19)
 
 
-participant_num = '______' # change when doing experiments
+participant_num = 1000 # change when doing experiments
 
 def read_file():
     global head_control
