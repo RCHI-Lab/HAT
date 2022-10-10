@@ -20,25 +20,25 @@ For video demos, visit https://sites.google.com/view/hat-teleop/home.
 #### On laptop 1:
 1. Remote desktop control of the robot using either [Getscreen.me](https://getscreen.me/) or [DWService](https://www.dwservice.net/).
 2. On Stretch RE1, create a new user account and log into that account.
-3. Install the required dependencies: 
+3. Clone the repository to your Stretch RE1 robot:
+```sh
+git clone https://github.com/Bread-wq/Wearable-Headband-Interface.git
+```
+4. Install the required dependencies: 
 ```sh
 pip install -r Requirements_laptop1.txt 
 ```
-4. Clone the repository to your Stretch RE1 robot:
+
+#### On laptop 2:
+1. Clone the repository to laptop 2:
 ```sh
 git clone https://github.com/Bread-wq/Wearable-Headband-Interface.git
 ```
-
-#### On laptop 2:
-1. Install the required dependencies: 
+2. Install the required dependencies: 
 ```sh
 pip install -r Requirements_laptop2.txt 
 ```
-2. Connect to the earbuds via bluetooth.
-3. Clone the repository to laptop 2:
-```sh
-git clone https://github.com/Bread-wq/Wearable-Headband-Interface.git
-```
+3. Connect to the earbuds via bluetooth. 
 
 #### On TinyPico ESP32:
 1. Connect TinyPico on one of the computers.
@@ -75,10 +75,10 @@ Now the TinyPico is connected to Stretch RE1.
 1. Obtain the IP address of your Stretch RE1 robot, `<Robot IP>`
 
 - Go to main.py, replace the IP address on line 181 with ```<Robot IP>``` obtained.
-- On Laptop 2, in `GUI/Voice_recognition.py`, replace the server IP address on line 23 with `<Robot IP>`.
+- On Laptop 2, in `speech.py`, replace the server IP address on line 23 with `<Robot IP>`.
 
 2. Similarly, get the IP address of the Laptop 2 for running speech recognition, `<Comp IP>`.
-- In `GUI/Voice_recognition.py`, replace the host IP address on line 20 with `<Comp IP>`.
+- In `speech.py`, replace the host IP address on line 20 with `<Comp IP>`.
 
 
 ## Start Experiment:
@@ -97,8 +97,7 @@ python main.py
 
 3. On Laptop 2, run 
 ```sh
-cd GUI
-python3 Voice_recognition.py
+python speech.py
 ```
 
 - Enter 1 for speech recognition mode, or 2 for cycle mode.
@@ -137,10 +136,10 @@ If you choose Cycle mode, each time you shake your head, the mode will switch to
   *Emergency Stop Button*
 
 ## Saving Experiment Data
-1. On line 15 in `main.py`, fill in participant number.
+1. On line 15 in `main.py`, change participant number according to experiment.
 2. On line 85 in `main.py`, fill in `user_data_path= '_____'` with the intended directory to save data.
 3. Enter 'e' in <terminal 1> (running `keyboard.py`), <terminal 2> (running `main.py`) should print 'Saved Data' 
-4. `Ctrl-C` to terminate both `main.py` and `Voice_recognition.py`
+4. `Ctrl-C` to terminate both `main.py` and `speech.py`
 5. Data saved: 
 - IMU data: accelerometer data in all 3 axes  
 - Mode data: the mode robot is in and the movement command sent to the robot
