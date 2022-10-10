@@ -105,7 +105,8 @@ python3 Voice_recognition.py
 
 The Laptop 2 will connect to the robot via socket communication, and <terminal 2> on robot should print "Connected".
 
-## Instructions on how to switch mode [Video instruction](https://www.youtube.com/watch?v=v8wXM-cCss0) for more details.
+## Instructions on how to switch mode 
+[Video instruction](https://www.youtube.com/watch?v=v8wXM-cCss0) for more details.
 ### Method 1: Speech recognition
 1. To send a speech command: 
 - Wear the hat and shake the head left and right, after a "beep" sound, say the intended command. (Shake your head again if no "beep" sound is heard).
