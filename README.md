@@ -22,7 +22,7 @@ For video demos, visit https://sites.google.com/view/hat-teleop/home.
 2. On Stretch RE1, create a new user account and log into that account.
 3. Clone the repository to your Stretch RE1 robot:
 ```sh
-git clone https://github.com/Bread-wq/Wearable-Headband-Interface.git
+git clone https://github.com/Bread-wq/HAT.git
 ```
 4. Install the required dependencies: 
 ```sh
